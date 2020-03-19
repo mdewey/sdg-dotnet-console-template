@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SDG.templates.Console</id>
-    <version>1.0</version>
+    <version>1.2.2</version>
     <description>
       Creates a simple console app for use at Suncoast Developers Guild in Tampa Bay FL. Includes gitignore and tasks to interact with github.
     </description>
@@ -10,6 +10,7 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <license type="expression">MIT</license>
   </metadata>
    <files>
     <file
