@@ -35,7 +35,7 @@ Install [nuget](https://docs.microsoft.com/en-us/nuget/reference/nuget-exe-cli-r
 3. run `nuget pack .`
 4. run `nuget push SDG.templates.Console.X.X.X.nupkg -Source https://www.nuget.org` with the correct version number
 
-This will push it to Nuget to be instal later. To install on a students laptop
+This will push it to Nuget. Nuget will index the package, and when it's done indexing (~ 1-30 minutes), it will available for install. To install on a students laptop
 
 ```sh
 dotnet new --install SDG.templates.Console::X.X.X
