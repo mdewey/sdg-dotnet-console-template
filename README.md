@@ -24,11 +24,11 @@ Now with that in mind, The project has 3 main parts:
 
 ## How to update something
 
-// START HERE
+To update, I would recommend opening just the `SampleApp` Folder and working in that project like it was just a normal C# app. Get things working and then test it out.
 
 ## How to deploy
 
-Install [nuget](https://docs.microsoft.com/en-us/nuget/reference/nuget-exe-cli-reference) and [set your API key](https://docs.microsoft.com/en-us/nuget/reference/cli-reference/cli-ref-setapikey)
+Install [nuget](https://docs.microsoft.com/en-us/nuget/reference/nuget-exe-cli-reference) and [set your API key for nuget.org](https://docs.microsoft.com/en-us/nuget/reference/cli-reference/cli-ref-setapikey)
 
 1. Delete the `bin` and the `obj` folder
 2. Bump the version number in the `sdg-console-template.nuspec`.
